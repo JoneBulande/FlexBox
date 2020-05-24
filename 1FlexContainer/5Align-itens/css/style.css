@@ -1,0 +1,132 @@
+/********************************************/
+/*| reset  |*/
+/********************************************/
+*{
+	color: #fff;
+	font-family: Arial;
+	background-color: #000;
+}
+h1{
+	text-align: center;
+}
+h2{
+	font-weight: 300;
+	font-style: italic;
+	text-align: center;
+}
+/********************************************/
+/*| Header  |*/
+/********************************************/
+.header{
+	display: flex;
+	padding: 10px;
+	border-bottom: 2px solid #fff;
+	justify-content: space-between;
+}
+.header button{
+	padding: 5px;
+	cursor: pointer;
+	background-color: tomato;
+	border: 2px solid #fff;
+}
+.header button:hover{
+	color: tomato;
+	background-color: #fff;
+}
+.header div{
+	flex-grow: 2;
+	font-size: 2em;
+	font-weight: 700;
+	text-align: center;
+}
+/********************************************/
+/*| container  |*/
+/********************************************/
+.container{
+	padding: 2px;
+	display: flex;
+	margin: 0 auto;
+	min-height:100px; 
+	max-width: 400px;
+	margin-bottom: 50px;
+	border:1px solid #fff;
+}
+/********************************************/
+/*| container  |*/
+/********************************************/
+.row{
+	flex-direction: row;
+}
+.row-reverse{
+	flex-direction: row-reverse;
+}
+.colomn{
+	flex-direction: column;
+}
+.colomn-reverse{
+	flex-direction: column-reverse;
+}
+/********************************************/
+/*| container  |*/
+/********************************************/
+.wrap{
+	flex-wrap: wrap;
+}
+.nowrap{
+	flex-wrap: nowrap;
+}
+.wrap-reverse{
+	flex-wrap: wrap-reverse;
+}
+/********************************************/
+/*| jutifly content |*/
+/********************************************/
+.jflex-star{
+	justify-content: flex-start;
+}
+.jspace-between{
+	justify-content: space-between;
+}
+.jcenter{
+	justify-content: center;
+}
+.jspace-around{
+	justify-content: space-around;
+}
+.jflex-end{
+	justify-content: flex-end;
+}
+
+/********************************************/
+/*| align-itens  |*/
+/********************************************/
+
+.flex-stretch{
+	align-items: flex-stretch;
+}
+.flex-start{
+	align-items: flex-start;
+}
+.center{
+	align-items:center;
+}
+.flex-end{
+	align-items: flex-end;
+}
+.space-around{
+	justify-content: space-around;
+}
+.baseline{
+	align-items: baseline;
+}
+
+/********************************************/
+/*| container  |*/
+/********************************************/
+.item{
+	flex: 1;
+	margin: 5px;
+	text-align: center;
+	border:1px solid #fff;
+	background-color: tomato;
+}
