@@ -13,13 +13,18 @@ h2{
 	font-weight: 300;
 	font-style: italic;
 	text-align: center;
+	margin-top: 80px;
 }
 /********************************************/
 /*| Header  |*/
 /********************************************/
 .header{
+	top: 0;
+	left: 0;
+	width: 100%;
 	display: flex;
 	padding: 10px;
+	position: fixed;
 	border-bottom: 2px solid #fff;
 	justify-content: space-between;
 }
@@ -48,7 +53,6 @@ h2{
 	display: flex;
 	margin: 0 auto;
 	max-width: 400px;
-	margin-bottom: 50px;
 	border:1px solid #fff;
 }
 /********************************************/
