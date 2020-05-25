@@ -13,13 +13,18 @@ h2{
 	font-weight: 300;
 	font-style: italic;
 	text-align: center;
+	margin-top: 70px;
 }
 /********************************************/
 /*| Header  |*/
 /********************************************/
 .header{
+	top: 0;
+	left: 0;
+	width: 100%;
 	display: flex;
 	padding: 10px;
+	position: fixed;
 	border-bottom: 2px solid #fff;
 	justify-content: space-between;
 }
