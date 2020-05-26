@@ -13,6 +13,31 @@ h2{
 	text-align: center;
 }
 /********************************************/
+/*| Header  |*/
+/********************************************/
+.header{
+	display: flex;
+	padding: 10px;
+	border-bottom: 2px solid #fff;
+	justify-content: space-between;
+}
+.header button{
+	padding: 5px;
+	cursor: pointer;
+	background-color: tomato;
+	border: 2px solid #fff;
+}
+.header button:hover{
+	color: tomato;
+	background-color: #fff;
+}
+.header div{
+	flex-grow: 2;
+	font-size: 2em;
+	font-weight: 700;
+	text-align: center;
+}
+/********************************************/
 /*| container  |*/
 /********************************************/
 .container{
