@@ -1,60 +1,6 @@
 /********************************************/
-/*| reset  |*/
-/********************************************/
-*{
-	color: #fff;
-	border: none;
-	font-family: Arial;
-	background-color: #000;
-}
-h1{
-	
-}
-h2{
-	font-weight: 300;
-	font-style: italic;
-	text-align: center;
-}
-/********************************************/
-/*| Header  |*/
-/********************************************/
-.header{
-	display: flex;
-	padding: 10px;
-	border-bottom: 2px solid #fff;
-	justify-content: space-between;
-}
-.header button{
-	padding: 5px;
-	cursor: pointer;
-	background-color: tomato;
-	border: 2px solid #fff;
-}
-.header button:hover{
-	color: tomato;
-	background-color: #fff;
-}
-.header div{
-	flex-grow: 2;
-	font-size: 2em;
-	font-weight: 700;
-	text-align: center;
-}
-/********************************************/
-/*| container  |*/
-/********************************************/
-.container{
-	padding: 2px;
-	display: flex;
-	margin: 0 auto;
-	max-width: 400px;
-	margin-bottom: 50px;
-	border:1px solid #fff;
-}
-/********************************************/
 /*| dlex-direction  |*/
 /********************************************/
-
 .row{
 	flex-direction: row;
 }
@@ -75,15 +21,4 @@ h2{
 }
 .wrap-reverse{
 	flex-wrap: wrap-reverse;
-}
-/********************************************/
-/*| flex-item  |*/
-/********************************************/
-
-.item{
-	flex: 1;
-	margin: 5px;
-	text-align: center;
-	border:1px solid #fff;
-	background-color: tomato;
 }
