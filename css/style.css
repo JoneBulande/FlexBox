@@ -33,6 +33,9 @@ a{
 	justify-content: center;
 	border-bottom: 2px solid tomato;
 }
+.header h1{
+	color: tomato;
+}
 
 /********************************************/
 /*| principal  |*/
